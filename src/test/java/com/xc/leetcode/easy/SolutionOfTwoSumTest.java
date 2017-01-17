@@ -10,7 +10,7 @@ import java.util.Arrays;
 /**
  * Created by Administrator on 2017/1/16.
  */
-public class EasySolutionOfTwoSumTest {
+public class SolutionOfTwoSumTest {
 
     private SolutionOfTwoSum solutionOfTwoSum;
 

@@ -53,7 +53,30 @@ public class SolutionOfLengthOfLongestSubstringTest {
 
         Assert.assertEquals(solution.method1(s1),a1);
         Assert.assertEquals(solution.method1(s2),a2);
-        Assert.assertEquals(solution.method1(s3),a3);
+        Assert.assertEquals(solution.method1(s3), a3);
     }
+
+
+    @Test
+    public void testMethod2() throws Exception {
+        Assert.assertEquals(solution.method2(s1),a1);
+        Assert.assertEquals(solution.method2(s2),a2);
+        Assert.assertEquals(solution.method2(s3),a3);
+    }
+
+    @Test
+    public void testMethod3() throws Exception {
+        Assert.assertEquals(solution.method3(s1),a1);
+        Assert.assertEquals(solution.method3(s2),a2);
+        Assert.assertEquals(solution.method3(s3),a3);
+    }
+
+    @Test
+    public void testMethod4() throws Exception {
+        Assert.assertEquals(solution.method4(s1),a1);
+        Assert.assertEquals(solution.method4(s2),a2);
+        Assert.assertEquals(solution.method4(s3),a3);
+    }
+
 }
 

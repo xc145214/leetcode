@@ -31,6 +31,7 @@ public class SolutionOfFindMedianSortedArraysTest extends TestCase {
     double median1, median2;
     SolutionOfFindMedianSortedArrays solution;
 
+
     @Before
     public void setUp() throws Exception {
         A = new int[]{1, 3};
